@@ -10,9 +10,7 @@ fun main(args: Array<String>) {
         coordinates.add(input)
     }
 
-    val flag = canTravel(coordinates)
-
-    if (flag) {
+    if (canTravel(coordinates)) {
         println("Yes")
     } else {
         println("No")
